@@ -49,7 +49,7 @@ export default function Announcements() {
       {/* Section Title with Icon */}
       <h2 className="text-3xl md:text-4xl font-bold text-primary mb-8 flex items-center gap-3">
         <MegaphoneIcon className="w-8 h-8 text-accent" />
-        Latest Announcement
+        Announcements/News
       </h2>
 
       {/* Rotating Card */}
