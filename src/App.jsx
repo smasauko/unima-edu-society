@@ -5,6 +5,8 @@ import Announcements from "./components/Announcements"
 import ExecutiveMembers from "./components/ExecutiveMembers"
 import Faqs from "./components/FAQs"
 import Footer from "./components/Footer"
+import Auth from "./pages/Auth"
+
 export default function App() {
   return (
     <>
