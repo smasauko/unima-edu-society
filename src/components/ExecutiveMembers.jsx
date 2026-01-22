@@ -19,7 +19,7 @@ export default function ExecutiveMembers() {
       </h2>
 
       {/* Horizontal Scroll */}
-      <div className="overflow-x-auto px-6">
+      <div className="overflow-x-auto custom-scrollbar px-6">
         <div className="flex gap-6 md:gap-8">
           {members.map((member, index) => (
             <motion.div
