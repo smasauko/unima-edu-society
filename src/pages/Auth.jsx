@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
+import logo from "../assets/logo.png"
 
 export default function Auth() {
   const [isLogin, setIsLogin] = useState(true)
@@ -14,11 +15,15 @@ export default function Auth() {
         className="w-full max-w-md bg-white shadow-xl rounded-2xl p-8"
       >
         {/* Title */}
-        <h2 className="text-3xl font-bold text-primary text-center mb-2">
-          UNIMA Education Society
-        </h2>
+        <div className="text-center mb-2">
+          <img
+            src={logo}
+            alt="UNIMA Education Society"
+            className="w-24 mx-auto"
+          />
+        </div>
         <p className="text-gray-600 text-center mb-8">
-          {isLogin ? "Member Login" : "Create an Account"}
+          {isLogin ? "Sign in to start your session" : "Create an Account"}
         </p>
 
         {/* Form */}
