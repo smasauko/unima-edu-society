@@ -30,7 +30,7 @@ export default function Auth() {
               </label>
               <input
                 type="text"
-                placeholder="Your full name"
+                placeholder="Spencer Masauko"
                 className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>
@@ -42,7 +42,7 @@ export default function Auth() {
             </label>
             <input
               type="email"
-              placeholder="example@unima.ac.mw"
+              placeholder="bed-com-01-23@unima.ac.mw"
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
