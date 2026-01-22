@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import logo from "../assets/logo.png"
 
 import group1 from "../assets/group1.jpg"
@@ -72,14 +73,14 @@ export default function Hero() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <button
-            onClick={() => window.location.href = "/login"}
+          <Link
+            to="/login"
             className="bg-accent text-white px-8 py-3 rounded-full text-lg font-semibold
-                       hover:bg-accent/80 transition-all duration-300
+                       hover:bg-accent/80 transition-all duration-300 inline-block
                        shadow-lg hover:shadow-xl"
           >
             Join Us
-          </button>
+          </Link>
         </motion.div>
 
         {/* Dots Indicator */}
