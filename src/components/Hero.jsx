@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import logo from "../assets/logo.png"
 
 import group1 from "../assets/group1.jpg"
@@ -11,6 +11,7 @@ const images = [group1, group2, group3]
 
 export default function Hero() {
   const [current, setCurrent] = useState(0)
+  const navigate = useNavigate()
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -73,14 +74,14 @@ export default function Hero() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Link
-            to="/login"
+          <button
+            onClick={() => navigate("/login")}
             className="bg-accent text-white px-8 py-3 rounded-full text-lg font-semibold
-                       hover:bg-accent/80 transition-all duration-300 inline-block
+                       hover:bg-accent/80 transition-all duration-300
                        shadow-lg hover:shadow-xl"
           >
             Join Us
-          </Link>
+          </button>
         </motion.div>
 
         {/* Dots Indicator */}
