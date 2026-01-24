@@ -58,12 +58,18 @@ export default function Hero() {
           className="w-36 mb-6"
         />
 
-        <h1 className="text-3xl text-white/88 md:text-5xl font-bold mb-4">
-          Welcome to UNIMA Education Society
-        </h1>
+        <div className="max-w-3xl mx-auto">
+            <h3 className="text-xl md:text-2xl font-semibold text-white/90 tracking-wide">
+              The University of Malawi
+            </h3>
 
-        <p className="max-w-3xl mx-auto text-lg text-white/90">
-          The UNIMA Education Society is an academic student society under the
+            <h1 className="text-3xl md:text-5xl font-bold text-white tracking-wide">
+              Education Society
+            </h1>
+        </div>
+            <br />
+        <p className="max-w-3xl mx-auto text-lg text-white">
+          Is an academic student society under the
           University of Malawi, promoting academic excellence, professional
           development, leadership, and collaboration among future educators.
         </p>
