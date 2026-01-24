@@ -1,14 +1,22 @@
 import { motion } from "framer-motion"
-import member1 from "../assets/member1.jpg"
-import member2 from "../assets/member2.jpg"
+import member1 from "../assets/member1.png"
+import member2 from "../assets/member2.png"
 import member3 from "../assets/member3.png"
 import member4 from "../assets/member4.png"
+import member5 from "../assets/member5.png"
+import member6 from "../assets/member6.png"
+import member7 from "../assets/member7.png"
+import member8 from "../assets/member8.png"
 
 const members = [
-  { name: "Funika", position: "President", photo: member1 },
-  { name: "Evelyn Mwale", position: "Vice President", photo: member2 },
-  { name: "Gift Banda", position: "General Secretary", photo: member3 },
-  { name: "David Phiri", position: "Treasurer", photo: member4 },
+  { name: "Debora Funika Kabinda", position: "President", photo: member1 },
+  { name: "Chisomo Nyirenda", position: "Vice President", photo: member2 },
+  { name: "Elias Mwale", position: "Social Welfare", photo: member3 },
+  { name: "Gift Banda", position: "Program Coordinator", photo: member8 },
+  { name: "Mike Chirwa", position: "Deputy Programs Coordinator", photo: member4 },
+  { name: "wangu Banda", position: "Publicity Secretary", photo: member6 },
+  { name: "Mphatso Bwemba", position: "Vice publicity secretary", photo: member5 },
+  { name: "Linda Mkandawire", position: "Vice General Secretary", photo: member7 },
 ]
 
 export default function ExecutiveMembers() {
@@ -19,7 +27,7 @@ export default function ExecutiveMembers() {
       </h2>
 
       {/* Horizontal Scroll */}
-      <div className="overflow-x-auto px-6">
+      <div className="overflow-x-auto overflow-y-hidden custom-scrollbar px-6">
         <div className="flex gap-6 md:gap-8">
           {members.map((member, index) => (
             <motion.div

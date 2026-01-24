@@ -3,6 +3,9 @@ import { InformationCircleIcon } from "@heroicons/react/24/outline"
 import about1 from "../assets/about1.jpg"
 import about2 from "../assets/about2.jpg"
 
+import { db } from "../services/firebase"
+console.log("Firestore:", db)
+
 export default function About() {
   const cards = [
     {

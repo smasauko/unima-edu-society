@@ -32,7 +32,7 @@ export default function Faqs() {
       id="faqs"
       className="bg-gray-50 px-6 py-20 flex flex-col items-center"
     >
-      <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12">
+      <h2 className="text-3xl md:text-4xl text-centre font-bold text-primary mb-12">
         Frequently Asked Questions
       </h2>
 
