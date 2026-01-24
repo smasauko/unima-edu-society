@@ -32,7 +32,7 @@ export default function Footer() {
             <a href="https://facebook.com" target="_blank" className="hover:text-accent transition">
               <FaFacebookF className="w-6 h-6" />
             </a>
-            <a href="https://wa.me/265999999999" target="_blank" className="hover:text-accent transition">
+            <a href="https://wa.me/265984304888" target="_blank" className="hover:text-accent transition">
               <FaWhatsapp className="w-6 h-6" />
             </a>
           </div>
