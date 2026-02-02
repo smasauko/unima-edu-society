@@ -7,16 +7,17 @@ import member5 from "../assets/member5.png"
 import member6 from "../assets/member6.png"
 import member7 from "../assets/member7.png"
 import member8 from "../assets/member8.png"
-
+import member9 from "../assets/member9.png"
 const members = [
-  { name: "Debora Funika Kabinda", position: "President", photo: member1 },
+  { name: "Funika Deborah Kabinda", position: "President", photo: member1 },
   { name: "Chisomo Nyirenda", position: "Vice President", photo: member2 },
   { name: "Elias Mwale", position: "Social Welfare", photo: member3 },
   { name: "Gift Banda", position: "Program Coordinator", photo: member8 },
   { name: "Mike Chirwa", position: "Deputy Programs Coordinator", photo: member4 },
-  { name: "wangu Banda", position: "Publicity Secretary", photo: member6 },
-  { name: "Mphatso Bwemba", position: "Vice publicity secretary", photo: member5 },
+  { name: "Styness Jere", position: "General Secretary", photo: member9 },
   { name: "Linda Mkandawire", position: "Vice General Secretary", photo: member7 },
+  { name: "Wangu Banda", position: "Publicity Secretary", photo: member6 },
+  { name: "Mphatso Bwemba", position: "Vice publicity secretary", photo: member5 },
 ]
 
 export default function ExecutiveMembers() {
