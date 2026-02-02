@@ -6,6 +6,7 @@ import ExecutiveMembers from "./components/ExecutiveMembers"
 import Faqs from "./components/FAQs"
 import Footer from "./components/Footer"
 import Auth from "./pages/Auth"
+import Staff from "./components/Staff"
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Hero />
       <About />
       <Announcements />
+      <Staff/>
       <ExecutiveMembers />
       <Faqs />
       <Footer />
