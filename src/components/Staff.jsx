@@ -31,10 +31,10 @@ export default function Staff() {
               Dr. Peter Namphande
             </h3>
             <p className="text-accent font-medium mb-4">
-              Dean of School of Education, University of Malawi
+             The Executive Dean of School of Education
             </p>
             <p className="text-gray-700 leading-relaxed max-w-xl">
-              The UNIMA Education Society works closely with the Department of
+              The UNIMA Education Society works closely with the School of
               Education to promote academic excellence, professional ethics,
               and leadership among future educators.
             </p>
