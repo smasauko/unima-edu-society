@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import hod from "../assets/staff.jpg" // replace with actual photo
+import hod from "../assets/staff.jpg" 
 
 export default function Staff() {
   return (
